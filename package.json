@@ -1,0 +1,33 @@
+{
+  "name": "a01-kenxh",
+  "version": "1.0.0",
+  "description": "This package contains a very simple web server that takes one argument for port and then serves index.html in the www directory.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kenxh: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@github.com/comp426-2022-spring/a01-kenxh.git"
+  },
+  "keywords": [
+    "web",
+    "server",
+    "port",
+    "node",
+    "fs",
+    "args",
+    "http"
+  ],
+  "author": "Kendall Howard",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-spring/a01-kenxh/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-spring/a01-kenxh#readme",
+  "dependencies": {
+    "browser-sync": "^2.27.7",
+    "minimist": "^1.2.5"
+  }
+}
